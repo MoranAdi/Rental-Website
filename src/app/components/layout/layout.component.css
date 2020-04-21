@@ -1,0 +1,48 @@
+section {
+    height: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); 
+    grid-template-rows: 13% 83% 4%; 
+}
+
+footer {
+    margin: 0;
+    grid-column: span 12; 
+    background-color: white;
+
+}
+
+header{
+    grid-column: span 12; 
+    background-color: white;
+    z-index: 100;
+    box-shadow: 0 2px 7px rgba(0,0,0,0.5), 0 2px 7px rgba(0,0,0,0.2);
+}
+
+main {
+    grid-column: span 12; 
+    overflow: auto;
+}
+
+.container{
+    height: 100%;
+}
+
+h4 {
+        margin: 0;
+        position: relative;
+        top: 50%;
+        transform: translateY(-80%);
+        font-size: small;
+        font-weight: normal;    
+    }
+
+
+
+
+
+
+  
+
+

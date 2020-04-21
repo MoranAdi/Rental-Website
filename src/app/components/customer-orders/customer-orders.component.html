@@ -1,0 +1,57 @@
+
+<br><br>
+<mat-spinner color="warn" *ngIf="!userOrders && ok"></mat-spinner>
+
+<div class="example-container mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource">
+  
+      <!-- Order Number Column -->
+      <ng-container matColumnDef="orderNumber">
+        <th mat-header-cell *matHeaderCellDef>Order Number</th>
+        <td mat-cell *matCellDef="let element"> {{element.orderNum}} </td>
+      </ng-container>
+  
+      <!-- Brand Column -->
+      <ng-container matColumnDef="model">
+        <th mat-header-cell *matHeaderCellDef>Brand</th>
+        <td mat-cell *matCellDef="let element"> {{element.carManufacturer}} {{element.carModel}}</td>
+      </ng-container>
+  
+      <!-- Pick-up date Column -->
+      <ng-container matColumnDef="pick-up">
+        <th mat-header-cell *matHeaderCellDef>Pick-up date</th>
+        <td mat-cell *matCellDef="let element"> {{element.start | date:'dd/MM/yyyy'}} </td>
+      </ng-container>
+  
+      <!-- Return date Column -->
+      <ng-container matColumnDef="return">
+        <th mat-header-cell *matHeaderCellDef>Return date</th>
+        <td mat-cell *matCellDef="let element"> {{element.end | date:'dd/MM/yyyy'}} </td>
+      </ng-container>
+
+      <!-- Actual Return date Column -->
+      <ng-container matColumnDef="actual">
+        <th mat-header-cell *matHeaderCellDef>Actual Return date</th>
+        <td mat-cell *matCellDef="let element"> {{element.actualEnd | date:'dd/MM/yyyy'}} </td>
+      </ng-container>
+
+      <!-- Car Plate Number Column -->
+      <ng-container matColumnDef="plate">
+        <th mat-header-cell *matHeaderCellDef>Plate Numberbol</th>
+        <td mat-cell *matCellDef="let element"> {{element.plate}} </td>
+      </ng-container>
+
+      <!-- Status Order Column -->
+      <ng-container matColumnDef="statusOrder">
+        <th mat-header-cell *matHeaderCellDef>Status Order</th>
+        <td mat-cell *matCellDef="let element"> {{element.statusOrder}} </td>
+      </ng-container>
+
+  <!-- Display Columns -->
+      <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  </div>
+  <br>
+  <p>Click <a routerLink="/search-car">here</a> to make new reservation
+  </p>

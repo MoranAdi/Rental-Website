@@ -1,0 +1,37 @@
+<div class="links">
+    <!-- Home link -->
+    <div>
+        <a mat-button class="home-logo" routerLink="/home" routerLinkActive="active">
+            <img class="img-logo" src="/assets/images/logo.PNG">
+        </a>
+    </div>
+    <div>
+        <!-- Register link -->
+        <a *ngIf="!isLoggedIn" mat-button class="menu" (click)="openDialog()">Register</a>
+        <!-- Sign in link -->
+        <a *ngIf="!isLoggedIn" mat-button class="menu" routerLink="/login" routerLinkActive="active">Sign in</a>
+        <!-- Sign out link -->
+        <a *ngIf="isLoggedIn" mat-button class="menu" routerLink="/logout" routerLinkActive="active">Sign out</a>
+        <!-- Search car link -->
+        <a mat-button class="menu" routerLink="/search-car" routerLinkActive="active">Search Car</a>
+        <!-- User orders link -->
+        <a *ngIf="isUser" class="user-menu" mat-button class="user-menu" routerLink="/my-orders"
+            routerLinkActive="active">My Orders</a>
+        <!-- Employee link -->
+        <a *ngIf="isEmployee" mat-button class="employee-menu" routerLink="/employee"
+            routerLinkActive="active">Employee</a>
+        <!-- Admin link -->
+        <button *ngIf="isAdmin" mat-button [matMenuTriggerFor]="menu" class="employee-menu"
+            routerLink="/admin/admin-home" routerLinkActive="active">Admin</button>
+        <!-- Admin menu -->
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item routerLink="/admin/manage-cars" routerLinkActive="active">Manage Cars</button>
+            <button mat-menu-item routerLink="/admin/manage-cars-type" routerLinkActive="active">Manage Cars
+                Type</button>
+            <button mat-menu-item routerLink="/admin/manage-users" routerLinkActive="active">Manage Users</button>
+            <button mat-menu-item routerLink="/admin/manage-orders" routerLinkActive="active">Manage Orders</button>
+        </mat-menu>
+        <!-- User Image -->
+        <img *ngIf="isLoggedIn" class="user-img" src="{{userImg}}">
+    </div>
+</div>

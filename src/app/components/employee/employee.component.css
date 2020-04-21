@@ -1,0 +1,56 @@
+
+
+mat-form-field{
+    font-size: medium;
+    width: 200px;
+}
+
+.mat-elevation-z8{
+    margin: auto;
+    /* margin-top: 80px; */
+    width: 50%;
+    padding: 40px;
+    background-color: rgba(212, 207, 207, 0.466);
+}
+
+.card-header{
+font-size: x-large;
+font-weight: bold;
+}
+
+.card-title{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+table{
+    margin: auto;
+    text-align: left;
+    font-size: medium;
+}
+
+td{
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.card{
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(212, 207, 207, 0.466);
+}
+
+.totalPrice{
+    font-size: large;
+    font-weight: bold;
+}
+
+.td-left{
+    padding-left: 60px;
+}
+
+button{
+    font-size: medium;
+    width: 100px;
+    margin: 20px;
+}

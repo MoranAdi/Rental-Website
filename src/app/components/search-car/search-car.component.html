@@ -1,0 +1,166 @@
+<div class="search-container">
+  <form #formInfo="ngForm">
+    <table>
+      <!-- Free search -->
+      <tr>
+        <td>
+          <mat-icon>search</mat-icon>
+        </td>
+        <td>
+          <mat-form-field><input matInput type=text placeholder="Search..."
+              (input)="filterByKeyWord($event.target.value)"></mat-form-field>
+        </td>
+      </tr>
+      <!-- Search by pick up date-->
+      <tr>
+        <td>
+          <mat-icon>date_range</mat-icon>
+        </td>
+        <td>
+          <mat-form-field>
+            <input matInput [min]="datepickerStartDate" required #startInfo="ngModel"
+              [disabled]="filter.startDate !== 0" [matDatepicker]="picker1" placeholder="Pick up date"
+              (dateInput)="setMinDateToReturnDate()" name="start" [(ngModel)]="filter.startDate">
+            <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+            <mat-datepicker #picker1 [startAt]="datepickerStartDate"></mat-datepicker>
+          </mat-form-field>
+        </td>
+      </tr>
+      <!-- Search by return date-->
+      <tr>
+        <td>
+          <mat-icon>date_range</mat-icon>
+        </td>
+        <td>
+          <mat-form-field>
+            <input matInput required [min]="datepickerEndDate"
+              [disabled]="filter.endDate !== 0 || filter.startDate == 0" [matDatepicker]="picker2"
+              placeholder="Return date" name="end" [(ngModel)]="filter.endDate" (dateInput)="OnSearchByDates()">
+            <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+            <mat-datepicker [disabled]="filter.startDate == 0" #picker2></mat-datepicker>
+          </mat-form-field>
+        </td>
+      </tr>
+      <!-- Search by manufacturer-->
+      <tr>
+        <td>
+          <mat-icon>directions_car</mat-icon>
+        </td>
+        <td>
+          <div *ngIf="filter.manufacturer !== ''">{{filter.manufacturer}}</div>
+          <mat-form-field *ngIf="filter.manufacturer ==''">
+            <mat-label>Manufacturer</mat-label>
+            <mat-select [(value)]="filter.manufacturer" (selectionChange)="onSearch('manufacturer',$event.value)">
+              <mat-option *ngFor="let manufacturer of manufacturerArray" [value]="manufacturer">{{manufacturer}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+      </tr>
+      <!-- Search by model-->
+      <tr>
+        <td>
+          <mat-icon>directions_car</mat-icon>
+        </td>
+        <td>
+          <div *ngIf="filter.model !== ''">{{filter.model}}</div>
+          <mat-form-field *ngIf="filter.model == ''">
+            <mat-label>Model</mat-label>
+            <mat-select [(value)]="filter.model" (selectionChange)="onSearch('model',$event.value)">
+              <mat-option *ngFor="let model of modelArray" [value]="model">{{model}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+      </tr>
+      <!-- Search by manufacturer year-->
+      <tr>
+        <td>
+          <mat-icon>emoji_transportation</mat-icon>
+        </td>
+        <td>
+          <div *ngIf="filter.manufacturerYear !== ''">{{filter.manufacturerYear}}</div>
+          <mat-form-field *ngIf="filter.manufacturerYear == ''">
+            <mat-label>Manufacturer Year</mat-label>
+            <mat-select [(value)]="filter.manufacturerYear"
+              (selectionChange)="onSearch('manufacturerYear',$event.value)">
+              <mat-option *ngFor="let manufacturerYear of manufacturerYearArray" [value]="manufacturerYear">
+                {{manufacturerYear}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+      </tr>
+      <!-- Search by transmission-->
+      <tr>
+        <td>
+          <mat-icon>transform</mat-icon>
+        </td>
+        <td>
+          <div *ngIf="filter.transmission !== ''">{{filter.transmission}}</div>
+          <mat-form-field *ngIf="filter.transmission == ''">
+            <mat-label>Transmission</mat-label>
+            <mat-select [(value)]="filter.transmission" (selectionChange)="onSearch('carShiftGear', $event.value)">
+              <mat-option value=Automatic>Automatic</mat-option>
+              <mat-option value=Manual>Manual</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+      </tr>
+    </table>
+    <!-- Reset button-->
+    <button class="reset-button" (click)="resetAllFilters()">Reset Filters</button>
+    <br><br>
+  </form>
+</div>
+
+<!-- Display cars -->
+<br>
+<mat-spinner color="warn" *ngIf="!allCars && ok"></mat-spinner>
+<div class="div-card" *ngIf="filteredCars">
+  <img class="img-logo" src="/assets/images/logo.PNG">
+  <h2 *ngIf="okFilteredCars"> Found <span class="filtered-cars-length">{{filteredCars.length}}</span> matching offers
+    for you</h2>
+  <div class="card" *ngFor="let s of filteredCars">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title> {{ s.manufacturer }} </mat-card-title>
+        <mat-card-subtitle> {{ s.model }} </mat-card-subtitle>
+      </mat-card-header>
+      <img class="card-image" mat-card-image src="http://localhost:49934//Uploads/{{s.image}}">
+      <mat-card-content>
+        <p class="p-carType">
+          {{s.carType}}
+        </p>
+        <p>
+          Manufacturer Year : {{ s.manufacturerYear }}
+        </p>
+        <p>
+          Transmission : {{s.carShiftGear}}
+          <p>
+            Branch: {{s.branchName}}
+            <p>
+              {{Rentable(s.isRentable)}} <mat-icon *ngIf="s.isRentable" class="check-circle">check_circle</mat-icon>
+            </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-stroked-button color="primary" [routerLink]="['/orderDetails',s.carID]"
+          [queryParams]="{start: filter.startDate, end: filter.endDate }" (click)="writeLocalStorage(s.carID)"
+          [disabled]="formInfo.form.invalid">Calculate Price</button>
+        <br>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
+<br><br><br><br><br><br>
+
+<!-- Display last Searches -->
+<div class="footer-last-searches">
+  <img src="assets/images/line-shadow-png-2.png" height="80px">
+  <div class="last-search-card" *ngIf="myLocalStorage">
+    <h1>Recently Viewed</h1>
+    <div *ngFor="let lastSearch of myLocalStorage" class="card-2" role="button"
+      [routerLink]="['/orderDetails',lastSearch.carID]">
+      <h5 class="card-title">{{lastSearch.manufacturer}} {{lastSearch.model}}</h5>
+      <img src="http://localhost:49934//Uploads/{{lastSearch.image}}" class="card-img-last-search">
+    </div>
+  </div>
+</div>

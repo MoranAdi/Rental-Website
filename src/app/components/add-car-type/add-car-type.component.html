@@ -1,0 +1,76 @@
+<h3>
+  Please fill this entire form to add a new car type
+</h3>
+
+<div class="mat-elevation-z8">
+  <form #formInfo="ngForm" class="add-car-type-form">
+    <table class="carType-full-width" cellspacing="0">
+      <tr>
+        <!-- Manufacturer field -->
+        <td>
+          <mat-form-field class="carType-full-width">
+            <mat-label>Manufacturer</mat-label>
+            <mat-select required name="manufacturer" [(ngModel)]="carType.carManufacturer">
+              <mat-option *ngFor="let m of manufacturer" [value]="m.name">{{m.name}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+        <!-- Model field -->
+        <td>
+          <mat-form-field class="carType-full-width">
+            <mat-label>Model</mat-label>
+            <mat-select required name="model" [(ngModel)]="carType.carModel">
+              <mat-option *ngFor="let model of model" [value]="model.name">{{model.name}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+      </tr>
+      <tr>
+        <!-- Daily Price field -->
+        <td>
+          <mat-form-field class="carType-full-width">
+            <input #infoDailyPrice="ngModel" type="number" required pattern="^([1-8]\d\d|900)$" min=100 max=900 matInput
+              placeholder="Daily Price" name="dailyPrice" [(ngModel)]="carType.dayPrice">
+            <mat-hint>Enter price between 100 to 900</mat-hint>
+            <mat-error *ngIf="infoDailyPrice.errors?.required && infoDailyPrice.touched">Required field</mat-error>
+            <mat-error *ngIf="infoDailyPrice.errors?.pattern && infoDailyPrice.touched">Illegal price</mat-error>
+          </mat-form-field>
+        </td>
+        <!-- Overdue Daily Price field -->
+        <td>
+          <mat-form-field class="carType-full-width">
+            <input #infoOverdue="ngModel" type="number" required pattern="^([2-9]\d\d|1[0-4]\d\d|1500)$" min=200
+              max=1500 matInput placeholder="Overdue Daily Price" name="overdueDailyPrice"
+              [(ngModel)]="carType.dayOverduePrice">
+            <mat-hint>Enter price between 200 to 1500</mat-hint>
+            <mat-error *ngIf="infoOverdue.errors?.required && infoOverdue.touched">Required field</mat-error>
+            <mat-error *ngIf="infoOverdue.errors?.pattern && infoOverdue.touched">Illegal price</mat-error>
+          </mat-form-field>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <p>
+      <!-- Manufacturer Year field -->
+      <mat-form-field class="carType-full-width">
+        <input #ManufacturerYear="ngModel" type="text" required pattern="^(200[6-9]|201\d|2020)$" matInput
+          placeholder="Manufacturer Year" name="manufacturerYear" [(ngModel)]="carType.carManufacturerYear">
+        <mat-error *ngIf="ManufacturerYear.errors?.required && ManufacturerYear.touched">Required field</mat-error>
+        <mat-error *ngIf="ManufacturerYear.errors?.pattern && ManufacturerYear.touched">Year must be between 2006-2020
+        </mat-error>
+      </mat-form-field>
+      <br>
+      <!-- Transmission field -->
+      <mat-form-field class="carType-full-width">
+        <mat-label>Transmission</mat-label>
+        <mat-select required name="carShiftGear" [(ngModel)]="carType.carShiftGear">
+          <mat-option *ngFor="let c of carShiftGear" [value]="c.name">{{c.name}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <!-- Buttons fields -->
+      <button mat-fab color="warn" [disabled]="formInfo.form.invalid" (click)="addCarType()">Add</button>
+      <a mat-fab color="warn" routerLink="/admin/manage-cars-type">Back</a>
+  </form>
+  <br><br>
+</div>

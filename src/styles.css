@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+/* @import "~bootstrap/dist/css/bootstrap.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css"; */
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+
+html, body { height: 100%; margin: 0%; padding: 0%; 
+    
+
+        /* background-color: rgb(250, 247, 237); */
+        /* background-color: rgba(252, 243, 216, 0.233); */
+        /* background-color: rgba(245, 225, 165, 0.164); */
+
+
+
+    font-family: 'Numans', sans-serif;
+}
+body { font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

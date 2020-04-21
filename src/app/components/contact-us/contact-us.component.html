@@ -1,0 +1,39 @@
+<p class="head"> Adi Rent is committed to providing our customers with the highest level of service.</p>
+<div class="div-phone">
+    <p>Call our customer service
+        <br><span class="phone"> +972 3 567 3686</span><br>
+    </p>
+</div>
+<div class="form-div">
+    <h4>IF YOU HAVE ANY QUESTIONS PLEASE CONTACT US </h4>
+    <table>
+        <tr>
+            <td>
+                <mat-form-field appearance="outline">
+                    <input matInput placeholder="Please enter your name">
+                </mat-form-field>
+            </td>
+            <td class="email">
+                <mat-form-field appearance="outline">
+                    <input matInput placeholder="Please enter your email address">
+                </mat-form-field>
+            </td>
+        </tr>
+    </table>
+    <div class="div-span">
+        <span>
+            <mat-form-field class="span-mat-form" appearance="outline">
+                <input matInput placeholder="Phone number">
+            </mat-form-field>
+        </span>
+        <br>
+        <span>
+            <mat-form-field class="span-mat-form" hintLabel="Max 300 characters" appearance="outline">
+                <textarea matInput maxlength="300" placeholder="Question"></textarea>
+            </mat-form-field>
+        </span>
+    </div>
+    <br>
+    <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+    <br><br>
+</div>

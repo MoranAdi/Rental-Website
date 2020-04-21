@@ -1,0 +1,14 @@
+table {
+  width: 100%;
+  text-align: left;
+}
+
+div{
+  width: 80%;
+  margin: auto;
+}
+
+th{
+  text-align: center;
+}
+

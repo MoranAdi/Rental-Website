@@ -1,0 +1,41 @@
+h3{
+  font-family: 'Lora', serif;
+} 
+
+.add-user-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    font-size: medium;
+    margin: auto;
+  }
+  
+  .add-user-full-width {
+    width: 100%;
+  }
+
+  td {
+    padding-right: 20px;
+  }
+  span{
+    color: red;
+    font-size: small;
+  }
+p{
+  font-size: small;
+  text-align: center;
+}
+  .mat-elevation-z8{
+      text-align: center;
+      margin-top: 20px;
+      padding-right: 15px;
+      background-color: rgba(212, 207, 207, 0.212);  
+  }
+
+  button{
+    margin: auto;
+  }
+
+  a{
+    margin-left: 40px;
+}

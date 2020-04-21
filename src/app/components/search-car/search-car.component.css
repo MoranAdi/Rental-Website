@@ -1,0 +1,118 @@
+.search-container { 
+  margin: 10px;
+  padding-left: 8px;
+  width: 220px; 
+  display: flex;
+  flex-direction: column;
+  float: left;
+  position: absolute;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow:  black 3px 5px;
+  background-color: rgba(212, 207, 207, 0.466);
+}
+
+mat-form-field{
+  width: 150px;
+  font-size: small;
+}
+
+mat-spinner{
+  margin: auto;
+}
+
+.img-logo{
+  width: 100px;
+}
+
+form{
+  font-size: small;
+}
+
+.reset-button{
+  float: initial;
+  }
+
+  .div-card{
+    display: inline-block;
+    padding-left: 100px;  
+    width: 1080px;
+  } 
+
+  .card{
+    display: inline-block;
+    margin: 20px;
+    box-sizing: border-box;
+    background-color: rgba(212, 207, 207, 0.466);
+    border: 1px solid black;
+    box-shadow:  black 2px 5px;
+    border-radius: 5px;
+  }
+
+.example-card {
+  max-width: 250px;
+}
+
+p{
+  font-size: small;
+}
+
+.filtered-cars-length{
+  text-decoration-line: underline;
+}
+
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+  
+.p-carType{
+  font-weight: bold;
+}
+
+mat-card-title, mat-card-subtitle{
+  padding-left: 85px;
+  font-weight: bold ;
+}
+
+.check-circle{
+  color: indianred;
+}
+.cancel{
+  color: red;
+}
+
+
+
+.last-search-card{
+  display: inline-block;
+  padding-left: 20px;  
+  width: 1200px;
+}
+.card-2{
+  display: inline-block;
+  margin: 10px;
+  border: 0.5px solid black;
+}
+
+.card-title{
+  font-weight: bold;
+  font-size: medium;
+}
+
+.card-image{
+  height: 150px;
+width: 250px;
+}
+
+.footer-last-searches{
+  padding-left: 100px;
+}
+.card-img-last-search{
+  height: 80px; 
+  width: 150px;
+}

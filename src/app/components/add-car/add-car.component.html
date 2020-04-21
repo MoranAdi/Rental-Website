@@ -1,0 +1,70 @@
+<h3>
+  Please fill this entire form to add a new car
+</h3>
+<div class="mat-elevation-z8">
+  <form #formInfo="ngForm" class="add-car-form">
+    <table>
+      <tr>
+        <!-- Plate Number field -->
+        <td>
+          <mat-form-field class="car-full-width">
+            <input #plateNumberInfo="ngModel" pattern="^\d{7,8}$" maxlength="8" required type="text" matInput
+              placeholder="Plate Number" name="plateNumber" [(ngModel)]="car.plateNumber">
+            <mat-error *ngIf="plateNumberInfo.errors?.pattern && plateNumberInfo.dirty">Plate number must contain 7 to 8
+              numbers</mat-error>
+          </mat-form-field>
+        </td>
+        <!-- Car Type field -->
+        <td>
+          <mat-form-field class="car-full-width">
+            <mat-label>Car Type</mat-label>
+            <mat-select required name="carType" [(ngModel)]="car.cType">
+              <mat-option *ngFor="let type of carType" [value]="type.name">{{type.name}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+      </tr>
+      <tr>
+        <!-- Current Mileage field -->
+        <td>
+          <mat-form-field class="car-full-width">
+            <input #plateNumberInfo="ngModel" pattern="^[5-9]|[1-9]\d+$" min=5 required type="number" matInput
+              placeholder="Current Mileage" name="Mileage" [(ngModel)]="car.mileage">
+            <mat-error *ngIf="plateNumberInfo.errors?.pattern && plateNumberInfo.dirty"> Incorrect Mileage</mat-error>
+          </mat-form-field>
+        </td>
+        <!-- Branch field -->
+        <td>
+          <mat-form-field class="car-full-width">
+            <mat-label>Branch</mat-label>
+            <mat-select required name="branch" [(ngModel)]="branchName">
+              <mat-option *ngFor="let branch of branchNameArray" [value]="branch">{{branch}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+      </tr>
+      <tr>
+        <!-- Rentable field -->
+        <mat-form-field class="car-full-width">
+          <mat-label>Rentable</mat-label>
+          <mat-select required name="rentable" [(ngModel)]="car.isRentable">
+            <mat-option value="True">True</mat-option>
+            <mat-option value="False">False</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </tr>
+      <tr>
+        <!-- Image field -->
+        <img [src]="imageUrl" style="width:100px;height:80px">
+        <input class="addImage" type="file" #Image accept="image/*" (change)="onFileSelect($event)"
+          (change)="handleFileInput($event.target.files)">
+      </tr>
+      <br>
+    </table>
+  </form>
+  <!-- Buttons fields -->
+  <button mat-fab color="warn" [disabled]="!disableButton" [disabled]="formInfo.form.invalid" (click)="addCar()">Add
+    Car</button>
+  <a mat-fab color="warn" routerLink="/admin/manage-cars-type">Back</a>
+  <br><br>
+</div>

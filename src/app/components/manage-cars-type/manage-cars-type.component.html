@@ -1,0 +1,76 @@
+<h2>Manage Cars Type </h2>
+<h4>Choose what you would like to do</h4>
+<br>
+<a mat-stroked-button color="warn" routerLink="/admin/add-car-type/">Add New Car Type</a>
+<br><br>
+<mat-spinner color="warn" *ngIf="!allCarsType && ok"></mat-spinner>
+
+<mat-form-field>
+    <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Search">
+</mat-form-field>
+<div class="mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource" matSort>
+
+        <!-- Manufacturer Column -->
+        <ng-container matColumnDef="manufacturer">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Manufacturer </th>
+            <td mat-cell *matCellDef="let row"> {{row.carManufacturer}}</td>
+        </ng-container>
+
+        <!-- Model Column -->
+        <ng-container matColumnDef="model">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Model </th>
+            <td mat-cell *matCellDef="let row"> {{row.carModel}}</td>
+        </ng-container>
+
+        <!-- Daily Price -->
+        <ng-container matColumnDef="dayPrice">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Daily Price </th>
+            <td mat-cell *matCellDef="let row"> {{row.dayPrice | currency:'ILS':'symbol'}}</td>
+        </ng-container>
+
+        <!-- Daily Overdue Price Column -->
+        <ng-container matColumnDef="dayOverduePrice">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Daily Overdue Price </th>
+            <td mat-cell *matCellDef="let row"> {{row.dayOverduePrice | currency:'ILS':'symbol'}}</td>
+        </ng-container>
+
+        <!-- Manufacturer Year Column -->
+        <ng-container matColumnDef="manufacturerYear">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Manufacturer Year </th>
+            <td mat-cell *matCellDef="let row"> {{row.carManufacturerYear}}</td>
+        </ng-container>
+
+        <!-- transmision Column -->
+        <ng-container matColumnDef="transmision">
+            <th class="th2" mat-header-cell *matHeaderCellDef mat-sort-header> Transmision </th>
+            <td mat-cell *matCellDef="let row"> {{(row.carShiftGear)}}</td>
+        </ng-container>
+
+        <!-- Update Column -->
+        <ng-container matColumnDef="update">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>Update</th>
+            <td mat-cell *matCellDef="let row"> <a mat-stroked-button color="warn"
+                    routerLink="/admin/update-carType/{{row.id}}">Update</a></td>
+        </ng-container>
+
+        <!-- Delete Column -->
+        <ng-container matColumnDef="delete">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>Delete</th>
+            <td class="td2" mat-cell *matCellDef="let row" class="button-td"> <button mat-stroked-button color="warn"
+                    (click)="deleteCarType(row.id, row.carManufacturer, row.carModel, row.carManufacturerYear)">Delete</button></td>
+        </ng-container>
+
+        <!-- add new car Column -->
+        <ng-container matColumnDef="add">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>Add new car of this type</th>
+            <td class="td2" mat-cell *matCellDef="let row"> <a mat-stroked-button color="warn"
+                    routerLink="/admin/add-car/{{row.id}}">Add car</a></td>
+        </ng-container>
+
+        <!-- Fill the rows with data -->
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+    <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+</div>

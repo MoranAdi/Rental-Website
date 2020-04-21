@@ -1,0 +1,76 @@
+<div *ngIf="carToRent" class="card">
+    <div class="image-card">
+        <img src="http://localhost:49934//Uploads/{{carToRent.image}}">
+    </div>
+    <div class="card-body">
+        <h1 class="card-header">{{carToRent.manufacturer}} {{carToRent.model}}</h1>
+        <table class="card-text">
+            <tr>
+                <td>Manufacturer Year:</td>
+                <td> {{carToRent.manufacturerYear}}</td>
+            </tr>
+            <tr>
+                <td>Transmission:</td>
+                <td>{{carToRent.carShiftGear}}</td>
+            </tr>
+            <tr>
+                <td> Car Type:</td>
+                <td> {{carToRent.carType}}</td>
+            </tr>
+            <tr>
+                <td>Current Mileage:</td>
+                <td>{{carToRent.mileage | number}}</td>
+            </tr>
+            <tr>
+                <td>Branch Name:</td>
+                <td>{{carToRent.branchName}}</td>
+            </tr>
+            <tr>
+                <td>Pick up Date:</td>
+                <td *ngIf=newOrder.start>{{newOrder.start | date}}</td>
+                <td *ngIf="!newOrder.start">
+                    <!-- Choose pick up date if is empty-->
+                    <mat-form-field>
+                        <input matInput [min]="datepickerStartDate" required [matDatepicker]="picker1"
+                            placeholder="Choose a date" (dateInput)="setMinDateToReturnDate()" name="start"
+                            [(ngModel)]="newOrder.start">
+                        <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+                        <mat-datepicker #picker1 [startAt]="datepickerStartDate"></mat-datepicker>
+                    </mat-form-field>
+                </td>
+            </tr>
+            <tr>
+                <td>Return Date:</td>
+                <td *ngIf="newOrder.end"> {{newOrder.end | date}}</td>
+                <td *ngIf="!newOrder.end">
+                    <!-- Choose return date if is empty-->
+                    <mat-form-field>
+                        <input matInput required [min]="datepickerEndDate" [matDatepicker]="picker2"
+                            placeholder="Choose a date" [disabled]="newOrder.start == null" name="end"
+                            [(ngModel)]="newOrder.end" (dateInput)="updatePropertydaysAmount()"
+                            (dateInput)="OnSearchByDates()">
+                        <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+                        <mat-datepicker #picker2></mat-datepicker>
+                    </mat-form-field>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>Daily Price:</td>
+                <td>{{carToRent.dayPrice | currency:'ILS':'symbol'}}</td>
+            </tr>
+            <tr>
+                <td>Daily Overdue Price:</td>
+                <td> {{carToRent.dayOverduePrice | currency:'ILS':'symbol'}}</td>
+            </tr>
+            <tr *ngIf="daysAmount" class="total-price">
+                <td>Total Price: </td>
+                <td>{{carToRent.dayPrice * daysAmount | currency:'ILS':'symbol'}}</td>
+            </tr>
+        </table>
+        <br><br>
+        <button *ngIf="newOrder.start" mat-flat-button color="primary" (click)="addOrder()"
+            [disabled]="!newOrder.end">Book</button>
+    </div>
+    <br>
+</div>

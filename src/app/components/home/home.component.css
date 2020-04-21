@@ -1,0 +1,31 @@
+.bgimg-1 {
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("http://getwallpapers.com/wallpaper/full/3/9/4/545933.jpg");
+  height: 100%;
+  }
+
+  h2 {
+    margin: 0%;
+    font-family: 'Lora', serif;
+  }
+
+  .mat-elevation-z8{
+    width: 50%;
+    margin-left: 30px;
+  }
+
+  p{
+    font-family: 'Lora', serif;
+    font-size: large;
+    text-align: left;
+    padding: 20px;
+  }
+
+  
+
+
+

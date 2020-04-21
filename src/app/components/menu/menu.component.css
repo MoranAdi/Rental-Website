@@ -1,0 +1,33 @@
+.home-logo{
+    float: left;
+}
+
+.menu{
+    float: left;
+    margin: 15px;
+    width: 120px;
+    color: rgb(59,90,116);
+}
+
+.img-logo{
+    width: 70px;
+}
+
+.employee-menu, .user-menu{
+    float: right;
+    margin-top: 15px;
+    width: 120px;
+    color: rgb(59,90,116);
+}
+
+.user-img{
+    width: 70px;
+    height: 60px;
+    float: right;
+    margin-top: 5px;
+}
+
+.activ{
+    color: rgb(59,90,116);
+    text-decoration: none;
+}   

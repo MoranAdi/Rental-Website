@@ -1,0 +1,159 @@
+<h2 mat-dialog-title>
+   <img src="/assets/images/logo.PNG"><br>
+   Sign Up
+</h2>
+<mat-dialog-content class="mat-elevation-z8">
+   <div>
+      <p><span>*</span> These fields are required</p>
+      <form #formInfo="ngForm" class="register-form">
+         <table class="register-full-width" cellspacing="0">
+            <tr>
+               <!-- First name field -->
+               <td>
+                  <mat-icon>person_outline</mat-icon>
+               </td>
+               <td class="td-width">
+                  <mat-form-field class="register-full-width">
+                     <input #fNameInfo="ngModel" pattern="^([A-Za-z|[א-ת])+$" required minlength="2" type="text"
+                        matInput placeholder="First Name" name="fName" [(ngModel)]="user.fName">
+                     <mat-error *ngIf="fNameInfo.errors?.minlength && !fNameInfo.errors?.pattern && fNameInfo.touched">
+                        Name too short</mat-error>
+                     <mat-error *ngIf="!fNameInfo.errors?.minlength && fNameInfo.errors?.pattern && fNameInfo.touched">
+                        Name must contain only Hebrew/English letters</mat-error>
+                     <mat-error *ngIf="fNameInfo.errors?.minlength && fNameInfo.errors?.pattern && fNameInfo.touched">
+                        Name must contain only Hebrew/English letters</mat-error>
+                  </mat-form-field>
+               </td>
+               <!-- Last name field -->
+               <td>
+                  <mat-icon>person_outline</mat-icon>
+               </td>
+               <td class="td-width">
+                  <mat-form-field class="register-full-width">
+                     <input #lNameInfo="ngModel" pattern="^([A-Za-z|[א-ת])+$" required minlength="2" type="text"
+                        matInput placeholder="Last Name" name="lName" [(ngModel)]="user.lName">
+                     <mat-error *ngIf="lNameInfo.errors?.minlength && !lNameInfo.errors?.pattern && lNameInfo.touched">
+                        Name too short</mat-error>
+                     <mat-error *ngIf="!lNameInfo.errors?.minlength && lNameInfo.errors?.pattern && lNameInfo.touched">
+                        Name must contain only Hebrew/English letters</mat-error>
+                     <mat-error *ngIf="lNameInfo.errors?.minlength && lNameInfo.errors?.pattern && lNameInfo.touched">
+                        Name must contain only Hebrew/English letters</mat-error>
+                  </mat-form-field>
+               </td>
+               <!-- Gender field -->
+               <td>
+                  <mat-icon>wc_outline</mat-icon>
+               </td>
+               <td class="td-width">
+                  <mat-form-field class="register-full-width">
+                     <mat-label>Gender</mat-label>
+                     <mat-select required name="gender" [(ngModel)]="user.userGender">
+                        <mat-option value="Female">Female</mat-option>
+                        <mat-option value="Male">Male</mat-option>
+                     </mat-select>
+                  </mat-form-field>
+               </td>
+            </tr>
+         </table>
+         <table class="register-full-width" cellspacing="0">
+            <tr>
+               <!-- ID number field -->
+               <td>
+                  <mat-icon>contact_mail_outline</mat-icon>
+               </td>
+               <td class="td-width">
+                  <mat-form-field class="register-full-width">
+                     <input #idNumberInfo="ngModel" pattern="^\d+$" required minlength="9" maxlength="9" type="text"
+                        matInput placeholder=" ID Number" name="idNumber" [(ngModel)]="user.id">
+                     <mat-hint>ID contain 9 digits </mat-hint>
+                     <mat-error
+                        *ngIf="idNumberInfo.errors?.minlength && !idNumberInfo.errors?.pattern && idNumberInfo.touched">
+                        ID too short</mat-error>
+                     <mat-error *ngIf="idNumberInfo.errors?.pattern && idNumberInfo.touched">ID contain only digits
+                     </mat-error>
+                  </mat-form-field>
+               </td>
+               <!-- Birthdate field -->
+               <td>
+                  <mat-icon>event_outline</mat-icon>
+               </td>
+               <td class="td-width">
+                  <mat-form-field class="register-full-width">
+                     <input #resultPickerModel="ngModel" [matDatepicker]="resultPicker" matInput [min]="minDate"
+                        [max]="maxDate" placeholder="Birthdate" name="bDay" [(ngModel)]="user.bDate">
+                     <mat-datepicker-toggle matSuffix [for]="resultPicker"></mat-datepicker-toggle>
+                     <mat-datepicker #resultPicker></mat-datepicker>
+                     <mat-error *ngIf="resultPickerModel.hasError('matDatepickerParse')">
+                        "{{resultPickerModel.getError('matDatepickerParse').text}}" is not a valid date!
+                     </mat-error>
+                     <mat-error *ngIf="resultPickerModel.hasError('matDatepickerMin')">
+                        Driver aged between 18 – 85</mat-error>
+                     <mat-error *ngIf="resultPickerModel.hasError('matDatepickerMax')">
+                        Driver aged must be between 18 – 85</mat-error>
+                  </mat-form-field>
+               </td>
+            </tr>
+         </table>
+         <table>
+            <tr>
+               <!-- User name field -->
+               <td>
+                  <mat-icon>person</mat-icon>
+               </td>
+               <td class="td-width">
+                  <mat-form-field class="register-full-width">
+                     <input #userNameInfo="ngModel" pattern="^[A-Z]([A-Z|a-z|\d])+$" required minlength="3" type="text"
+                        matInput placeholder="Choose User Name" name="uName" [(ngModel)]="user.uName">
+                     <mat-error
+                        *ngIf="userNameInfo.errors?.minlength && !userNameInfo.errors?.pattern && userNameInfo.touched">
+                        User Name too short</mat-error>
+                     <mat-error
+                        *ngIf="userNameInfo.errors?.pattern && userNameInfo.errors?.minlength && userNameInfo.touched">
+                        User name must start with Capital letter and can contain only English letters and digits
+                     </mat-error>
+                     <mat-error
+                        *ngIf="userNameInfo.errors?.pattern && !userNameInfo.errors?.minlength && userNameInfo.touched">
+                        User name must start with Capital letter and can contain only English letters and digit
+                     </mat-error>
+                  </mat-form-field>
+               </td>
+               <!-- Password field -->
+               <td>
+                  <mat-icon>vpn_key_outline</mat-icon>
+               </td>
+               <td class="td-width">
+                  <mat-form-field class="register-full-width">
+                     <input #passwordInfo="ngModel" pattern="^[A-Z].{5,9}$" required maxlength="10" type="password"
+                        matInput placeholder="Choose Password" name="password" [(ngModel)]="user.userPassword">
+                     <mat-hint>Password must start with Capital letter & conatain between 6-10 letters </mat-hint>
+                     <mat-error *ngIf="passwordInfo.errors?.pattern && passwordInfo.touched">Invaild password
+                     </mat-error>
+                  </mat-form-field>
+               </td>
+               <!-- Email field -->
+               <td>
+                  <mat-icon>mail_outline</mat-icon>
+               </td>
+               <td class="td-width">
+                  <mat-form-field class="register-full-width">
+                     <input #emailInfo="ngModel" pattern="^[\w.]+@[\w.]+\.[A-Za-z.]{2,5}$" required type="email"
+                        matInput placeholder="Email" name="email" [(ngModel)]="user.userEmail">
+                     <mat-error *ngIf="emailInfo.errors?.required && emailInfo.touched">Missing Email</mat-error>
+                     <mat-error *ngIf="emailInfo.errors?.pattern && emailInfo.touched">Invaild Email</mat-error>
+                  </mat-form-field>
+               </td>
+            </tr>
+         </table>
+         <!-- Image field -->
+         <img [src]="imageUrl" class="user-image">
+         <input class="addImage" type="file" #Image accept="image/*" (change)="onFileSelect($event)"
+            (change)="handleFileInput($event.target.files)">
+      </form>
+   </div>
+   <br>
+</mat-dialog-content>
+<br>
+<mat-dialog-actions>
+   <button mat-raised-button color="primary" [disabled]="formInfo.form.invalid" (click)="addUser()">Register</button>
+   <button mat-button color="primary" (click)="close()">Cancel</button>
+</mat-dialog-actions>

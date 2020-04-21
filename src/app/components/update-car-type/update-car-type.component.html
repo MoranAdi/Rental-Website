@@ -1,0 +1,33 @@
+<div class="mat-elevation-z8">
+  <br>
+  <h2>Please fill the data you would like to update</h2>
+  <br>
+  <form #formInfo="ngForm" class="update-car-type-form">
+
+    <p>
+      <!-- Daily Price field -->
+      <mat-form-field class="carType-full-width">
+        <input #infoDailyPrice="ngModel" type="number" (input)="disableButton=$event.target.value"
+          pattern="^([1-8]\d\d|900)" min=100 max=900 matInput placeholder="Daily Price" name="dailyPrice"
+          [(ngModel)]="carType.dayPrice">
+        <mat-hint>Enter price between 100 to 600</mat-hint>
+        <mat-error *ngIf="infoDailyPrice.errors?.pattern && infoDailyPrice.touched">Illegal price</mat-error>
+      </mat-form-field>
+    </p>
+    <p>
+      <!-- Overdue Daily Price field -->
+      <mat-form-field class="carType-full-width">
+        <input #infoOverdue="ngModel" type="number" (input)="disableButton=$event.target.value"
+          pattern="^([2-9]\d\d|1[0-4]\d\d|1500)" min=200 max=1500 matInput placeholder="Overdue Daily Price"
+          name="overdueDailyPrice" [(ngModel)]="carType.dayOverduePrice">
+        <mat-hint>Enter price between 200 to 700</mat-hint>
+        <mat-error *ngIf="infoOverdue.errors?.pattern && infoOverdue.touched">Illegal price</mat-error>
+      </mat-form-field>
+    </p>
+    <br><br>
+    <button mat-fab color="warn" (click)="updateCarType()"
+      [disabled]="!disableButton || formInfo.form.invalid">Update</button>
+    <a mat-fab color="warn" routerLink="/admin//manage-cars-type">Back</a>
+    <br><br>
+  </form>
+</div>

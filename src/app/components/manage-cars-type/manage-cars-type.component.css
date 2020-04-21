@@ -1,0 +1,38 @@
+h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+  font-size: small;
+}
+
+mat-spinner{
+  margin: auto;
+}
+
+button{
+  font-size: small;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+  }
+
+th{
+  font-size: small;
+  font-weight: bold;
+  }
+
+td{
+  width: 15%;
+  text-align: left;
+}
+
+.th2 {
+  padding-left: 1%;
+}
+
+.td2 {
+  padding-left: 1%;
+} 

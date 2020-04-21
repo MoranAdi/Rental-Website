@@ -1,0 +1,47 @@
+<div class="mat-elevation-z8">
+  <h2>Please fill the data you would like to update</h2>
+  <form #formInfo="ngForm" class="update-car-form">
+    <table>
+      <tr>
+        <!-- Rentable field -->
+        <mat-form-field class="car-full-width">
+          <mat-label>Rentable</mat-label>
+          <mat-select (selectionChange)="disableButton=$event.value" name="carType" [(ngModel)]="car.isRentable">
+            <mat-option value="True">True</mat-option>
+            <mat-option value="False">False</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </tr>
+      <!-- Current Mileage field -->
+      <tr>
+        <mat-form-field class="car-full-width">
+          <input (input)="disableButton=$event.target.value" #plateNumberInfo="ngModel" pattern="^[5-9]|[1-9]\d+$" min=5
+            type="number" matInput placeholder="Current Mileage" name="Mileage" [(ngModel)]="car.mileage">
+          <mat-error *ngIf="plateNumberInfo.errors?.pattern && plateNumberInfo.dirty">Incorrect Mileage</mat-error>
+        </mat-form-field>
+      <tr>
+        <!-- Branch field -->
+      <tr>
+        <mat-form-field class="car-full-width">
+          <mat-label>Branch</mat-label>
+          <mat-select (selectionChange)="disableButton=$event.value" name="branch" [(ngModel)]="branchName">
+            <mat-option *ngFor="let branch of branchNameArray" [value]="branch">{{branch}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </tr>
+      <tr>
+        <!-- Image field -->
+        <img [src]="imageUrl" style="width:100px;height:80px">
+        <input class="addImage" type="file" #Image accept="image/*" (change)="disableButton=true"
+          (change)="onFileSelect($event)" (change)="handleFileInput($event.target.files)">
+      </tr>
+    </table>
+    <br>
+    <br>
+    <!-- update button -->
+    <button mat-fab color="warn" [disabled]="!disableButton || formInfo.form.invalid"
+      (click)="updateCar()">Update</button>
+    <a mat-fab color="warn" routerLink="/admin//manage-cars">Back</a>
+    <br><br>
+  </form>
+</div>

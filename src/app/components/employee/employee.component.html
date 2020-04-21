@@ -1,0 +1,81 @@
+<div >
+<br><br>
+<div *ngIf="!showOrder" class="mat-elevation-z8">
+  <form>
+    <!-- Employee is entering the order number he want to return -->
+    <mat-form-field>
+      <input matInput type=text placeholder="Please enter order number" name="orderNumber" [(ngModel)]="orderNumber">
+    </mat-form-field>
+    &nbsp;
+    <button mat-raised-button color="primary" (click)="findOrder()">Find</button>
+  </form>
+</div>
+
+<!-- Display order details   -->
+<div *ngIf="orderFound && showOrder" class="mat-elevation-z8 card" style="max-width: fit-content;">
+  <div  class="card-header">{{orderFound.orderNum}}</div>
+  <div class="card-body">
+    <h5 class="card-title">{{orderFound.carManufacturer}} {{orderFound.carModel}}</h5>
+      <table  class="card-text">
+        <tr>
+          <td><mat-icon>directions_car</mat-icon></td>
+          <td>Plate Number:  </td>
+          <td class="td-left">{{orderFound.plate}}</td>
+        </tr>
+        <tr>
+          <td><mat-icon>person</mat-icon></td>
+          <td>customer Name: </td>
+          <td class="td-left">{{orderFound.fName}} {{orderFound.lName}}</td>
+        </tr>
+        <tr>
+          <td><mat-icon>person_outline</mat-icon></td>
+          <td>Customer ID: </td>
+          <td class="td-left">{{orderFound.customerID}}</td>
+        </tr>
+        <tr>
+          <td><mat-icon>event_available</mat-icon></td>
+          <td>Resevation Dates: </td>
+          <td class="td-left">{{orderFound.start | date:'dd/MM/yyyy'}}  &nbsp;to&nbsp;  {{orderFound.end| date:'dd/MM/yyyy'}}</td>
+        </tr>
+        <br>
+        <tr>
+          <td><mat-icon>attach_money</mat-icon></td>
+          <td>Total Resevation: </td>
+          <td class="td-left">{{orderFound.dayPrice * daysAmount | currency:'ILS':'symbol'}}</td>
+        </tr>
+        <tr>
+          <td><mat-icon>attach_money</mat-icon></td>
+          <td>Daily Overdue Price: </td>
+          <td class="td-left">{{orderFound.dayOverduePrice | currency:'ILS':'symbol'}}</td>
+        </tr>
+        <tr *ngIf="showTotalPrice">
+          <td><mat-icon>hourglass_empty</mat-icon></td>
+          <td>Total Overdue Days: </td>
+          <td class="td-left">{{overdueDays}} </td>
+        </tr>
+        <tr *ngIf="showTotalPrice && isOverdue">
+          <td><mat-icon>attach_money</mat-icon></td>
+          <td>Total Overdue Price:  </td>
+          <td class="td-left">{{overdueDays * orderFound.dayOverduePrice | currency:'ILS':'symbol'}}</td>
+        </tr>
+        <br>
+        <tr class="totalPrice" *ngIf="showTotalPrice && isOverdue">
+          <td><mat-icon>attach_money</mat-icon></td>
+          <td>Total Price: </td>
+          <td class="td-left">{{totalPriceWithOverdue | currency:'ILS':'symbol'}}</td>
+        </tr>
+        <tr class="totalPrice" *ngIf="showTotalPrice && !isOverdue">
+          <td><mat-icon>attach_money</mat-icon></td>
+          <td *ngIf="!isOverdue">Total Price:</td>
+          <td class="td-left">{{orderFound.dayPrice * daysAmount | currency:'ILS':'symbol' }}</td>
+        </tr>
+      </table>
+      <button *ngIf="!hideButton" mat-raised-button color="primary" (click)="UpdateActualReturn()">Return Car</button>
+      <button *ngIf="!isOverdue" mat-raised-button color="primary" (click)="refreshButton()">Back</button>
+  </div>
+</div>
+
+
+
+
+

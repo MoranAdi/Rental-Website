@@ -1,0 +1,53 @@
+<div class="mat-elevation-z8">
+  <br>
+  <h2>Please fill the data you would like to update</h2>
+  <form #formInfo="ngForm" class="update-order-form">
+    <!-- Pick-Up date field -->
+    <mat-form-field>
+      <input matInput (dateInput)="disableUpdateButton=$event" [matDatepicker]="picker1" placeholder="Pick-Up date"
+        name="start" [(ngModel)]="order.start">
+      <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+      <mat-datepicker #picker1></mat-datepicker>
+    </mat-form-field>
+    <br>
+    <!-- return date field -->
+    <mat-form-field>
+      <input matInput (dateInput)="disableUpdateButton=$event" [matDatepicker]="picker2" placeholder="Return Date"
+        name="end" [(ngModel)]="order.end">
+      <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+      <mat-datepicker #picker2></mat-datepicker>
+    </mat-form-field>
+    <br>
+    <!-- actual return date field -->
+    <mat-form-field>
+      <input matInput (dateInput)="disableUpdateButton=$event" [matDatepicker]="picker3"
+        placeholder="Actual Return Date" name="actualEnd" [(ngModel)]="order.actualEnd">
+      <mat-datepicker-toggle matSuffix [for]="picker3"></mat-datepicker-toggle>
+      <mat-datepicker #picker3></mat-datepicker>
+    </mat-form-field>
+    <br>
+    <!-- Plate Number field -->
+    <mat-form-field>
+      <input (input)="disableUpdateButton=$event.target.value" #plateNumberInfo="ngModel" pattern="^\d{7,8}$"
+        maxlength="8" type="text" matInput placeholder="Plate Number" name="plateNumber" [(ngModel)]="order.plate">
+      <mat-hint>In order to change car </mat-hint>
+      <mat-error *ngIf="plateNumberInfo.errors?.pattern">Plate number must contain 7 to 8 numbers</mat-error>
+    </mat-form-field>
+    <br>
+
+    <!-- Order Status field -->
+    <mat-form-field class="register-full-width">
+      <mat-label>Order Status</mat-label>
+      <mat-select (selectionChange)="disableUpdateButton=$event" name="statusOrder" [(ngModel)]="order.statusOrder">
+         <mat-option value="Open">Open</mat-option>
+         <mat-option value="Close">Close</mat-option>
+      </mat-select>
+   </mat-form-field>
+
+    <br><br>
+    <button mat-fab color="warn" (click)="updateOrder()"
+      [disabled]="!disableUpdateButton || formInfo.form.invalid">Update</button>
+    <a mat-fab color="warn" routerLink="/admin/manage-orders">Back</a>
+    <br><br>
+  </form>
+</div>

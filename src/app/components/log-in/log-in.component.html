@@ -1,0 +1,19 @@
+<div class="bgimg-1">
+    <div class="div-form">
+        <form class="form-signin" #formInfo="ngForm">
+            <img src="/assets/images/logo.PNG">
+            <br>
+            <h2>Please sign in</h2>
+            <mat-form-field>
+                <input matInput required type="text" id="inputUserName" class="form-control" placeholder="User Name"
+                    autofocus name="userName" [(ngModel)]="credentials.userName">
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput required type="password" id="inputPassword" class="form-control" placeholder="Password"
+                    name="userpassword" [(ngModel)]="credentials.password">
+            </mat-form-field>
+            <br>
+            <button mat-flat-button type="submit" [disabled]="formInfo.form.invalid" (click)="logIn()">Sign in</button>
+        </form>
+    </div>
+</div>

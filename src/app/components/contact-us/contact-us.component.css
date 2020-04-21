@@ -1,0 +1,56 @@
+.head{
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    font-size: large;    
+    color: rgb(207, 4, 4);
+}
+
+.div-phone{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    padding-left: 60px;
+    display: inline-block;
+    float: left;
+    font-family: 'Lora', serif;
+}
+.phone{
+    font-weight: bold;
+}
+
+.form-div{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 60%;
+    box-sizing: border-box;
+    border: 0.5px solid rgb(212, 208, 208);
+    float: left;
+    font-family: 'Lora', serif;
+}
+
+h4{
+}
+
+.email{
+
+    padding-left: 30px;
+}
+
+/* .div-span{
+text-align: center;    
+} */
+
+
+table{
+    margin: auto;
+}
+
+mat-form-field{
+    width: 300px;
+}
+
+.span-mat-form{
+    width: 500px;
+}
