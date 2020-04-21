@@ -1,0 +1,17 @@
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Release\03 - Business Logic Layer.dll.config
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Release\03 - Business Logic Layer.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Release\03 - Business Logic Layer.pdb
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Release\01 - Data Access Layer.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Release\02 - Data Transfer Objects.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Release\EntityFramework.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Release\EntityFramework.SqlServer.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Release\01 - Data Access Layer.pdb
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Release\01 - Data Access Layer.dll.config
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Release\02 - Data Transfer Objects.pdb
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Release\EntityFramework.xml
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Release\EntityFramework.SqlServer.xml
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Release\03 - Business Logic Layer.csprojAssemblyReference.cache
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Release\03 - Business Logic Layer.csproj.CoreCompileInputs.cache
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Release\03 - Business Logic Layer.csproj.CopyComplete
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Release\03 - Business Logic Layer.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Release\03 - Business Logic Layer.pdb

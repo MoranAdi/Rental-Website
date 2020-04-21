@@ -1,0 +1,30 @@
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\02 - Data Transfer Objects\bin\Debug\02 - Data Transfer Objects.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\02 - Data Transfer Objects\bin\Debug\02 - Data Transfer Objects.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.csprojAssemblyReference.cache
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.csproj.CoreCompileInputs.cache
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\02 - Data Transfer Objects\bin\Debug\02 - Data Transfer Objects.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\02 - Data Transfer Objects\bin\Debug\02 - Data Transfer Objects.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.csprojAssemblyReference.cache
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.csproj.CoreCompileInputs.cache
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.pdb
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\02 - Data Transfer Objects\bin\Debug\02 - Data Transfer Objects.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\02 - Data Transfer Objects\bin\Debug\02 - Data Transfer Objects.pdb
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.csprojAssemblyReference.cache
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.csproj.CoreCompileInputs.cache
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.pdb
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\02 - Data Transfer Objects\bin\Debug\02 - Data Transfer Objects.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\02 - Data Transfer Objects\bin\Debug\02 - Data Transfer Objects.pdb
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.csprojAssemblyReference.cache
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.csproj.CoreCompileInputs.cache
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.pdb
+C:\MoranProjects\projects\FullStack\AdiRentSystem\02 - Data Transfer Objects\bin\Debug\02 - Data Transfer Objects.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\02 - Data Transfer Objects\bin\Debug\02 - Data Transfer Objects.pdb
+C:\MoranProjects\projects\FullStack\AdiRentSystem\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.csprojAssemblyReference.cache
+C:\MoranProjects\projects\FullStack\AdiRentSystem\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.csproj.CoreCompileInputs.cache
+C:\MoranProjects\projects\FullStack\AdiRentSystem\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\02 - Data Transfer Objects\obj\Debug\02 - Data Transfer Objects.pdb

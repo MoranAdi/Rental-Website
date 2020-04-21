@@ -1,0 +1,85 @@
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.dll.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\bin\Debug\02 - Data Transfer Objects.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\bin\Debug\EntityFramework.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.dll.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\bin\Debug\02 - Data Transfer Objects.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\bin\Debug\EntityFramework.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csprojAssemblyReference.cache
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csproj.CoreCompileInputs.cache
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csproj.CopyComplete
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.dll.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\02 - Data Transfer Objects.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\EntityFramework.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.dll.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\02 - Data Transfer Objects.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\EntityFramework.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csprojAssemblyReference.cache
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csproj.CoreCompileInputs.cache
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csproj.CopyComplete
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.pdb
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.dll.config
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.pdb
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\02 - Data Transfer Objects.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\EntityFramework.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.pdb
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.dll.config
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\02 - Data Transfer Objects.pdb
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\EntityFramework.xml
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csprojAssemblyReference.cache
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csproj.CoreCompileInputs.cache
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csproj.CopyComplete
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.pdb
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.dll.config
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.pdb
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\02 - Data Transfer Objects.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\EntityFramework.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\EntityFramework.SqlServer.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.pdb
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.dll.config
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\02 - Data Transfer Objects.pdb
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\EntityFramework.xml
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\EntityFramework.SqlServer.xml
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csprojAssemblyReference.cache
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csproj.CoreCompileInputs.cache
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csproj.CopyComplete
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.pdb
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.dll.config
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.pdb
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\02 - Data Transfer Objects.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\EntityFramework.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\EntityFramework.SqlServer.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.pdb
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.dll.config
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\02 - Data Transfer Objects.pdb
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\EntityFramework.xml
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\bin\Debug\EntityFramework.SqlServer.xml
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csprojAssemblyReference.cache
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csproj.CoreCompileInputs.cache
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csproj.CopyComplete
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.pdb

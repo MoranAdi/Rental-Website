@@ -1,0 +1,395 @@
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\04 - Web API.dll.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\04 - Web API.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\04 - Web API.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\csc.exe
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\csc.exe.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\csc.rsp
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\csi.exe
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\csi.exe.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\csi.rsp
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.AppContext.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Collections.Immutable.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Console.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.IO.Compression.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.IO.FileSystem.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.IO.Pipes.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Security.AccessControl.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Security.Claims.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.ValueTuple.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Xml.XPath.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\vbc.exe
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\vbc.exe.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\vbc.rsp
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\VBCSCompiler.exe
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\roslyn\VBCSCompiler.exe.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\02 - Data Transfer Objects.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\03 - Business Logic Layer.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\EntityFramework.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\EntityFramework.SqlServer.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\Newtonsoft.Json.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\System.Net.Http.Formatting.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\System.Web.Cors.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\System.Web.Http.Cors.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\System.Web.Http.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\System.Web.Http.WebHost.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\01 - Data Access Layer.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\02 - Data Transfer Objects.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\03 - Business Logic Layer.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\03 - Business Logic Layer.dll.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\EntityFramework.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\EntityFramework.SqlServer.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\System.Web.Http.Cors.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\Newtonsoft.Json.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\System.Net.Http.Formatting.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\System.Web.Http.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\System.Web.Http.WebHost.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\01 - Data Access Layer.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\bin\01 - Data Access Layer.dll.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\obj\Debug\04 - Web API.csprojAssemblyReference.cache
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\obj\Debug\04 - Web API.csproj.CoreCompileInputs.cache
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\obj\Debug\04 - Web API.csproj.CopyComplete
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\obj\Debug\04 - Web API.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRent\04 - Web API\obj\Debug\04 - Web API.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\04 - Web API.dll.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\04 - Web API.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\04 - Web API.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csc.exe
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csc.exe.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csc.rsp
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csi.exe
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csi.exe.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csi.rsp
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.AppContext.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Collections.Immutable.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Console.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.Compression.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.FileSystem.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.Pipes.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.AccessControl.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Claims.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.ValueTuple.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Xml.XPath.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\vbc.exe
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\vbc.exe.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\vbc.rsp
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\VBCSCompiler.exe
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\VBCSCompiler.exe.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\02 - Data Transfer Objects.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\03 - Business Logic Layer.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\EntityFramework.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\EntityFramework.SqlServer.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\Newtonsoft.Json.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\System.Net.Http.Formatting.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Cors.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.Cors.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.WebHost.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\01 - Data Access Layer.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\02 - Data Transfer Objects.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\03 - Business Logic Layer.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\03 - Business Logic Layer.dll.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\EntityFramework.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\EntityFramework.SqlServer.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.Cors.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\Newtonsoft.Json.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\System.Net.Http.Formatting.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.WebHost.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\01 - Data Access Layer.pdb
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\bin\01 - Data Access Layer.dll.config
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.csprojAssemblyReference.cache
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.csproj.CoreCompileInputs.cache
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.csproj.CopyComplete
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.dll
+C:\Moran Projects\פרוייקטים\Full Stack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.pdb
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\04 - Web API.dll.config
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\04 - Web API.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\04 - Web API.pdb
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csc.exe
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csc.exe.config
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csc.rsp
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csi.exe
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csi.exe.config
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csi.rsp
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.AppContext.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Collections.Immutable.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Console.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.Compression.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.FileSystem.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.Pipes.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.AccessControl.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Claims.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.ValueTuple.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Xml.XPath.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\vbc.exe
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\vbc.exe.config
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\vbc.rsp
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\VBCSCompiler.exe
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\VBCSCompiler.exe.config
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\02 - Data Transfer Objects.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\03 - Business Logic Layer.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\EntityFramework.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\EntityFramework.SqlServer.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\Newtonsoft.Json.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Net.Http.Formatting.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Cors.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.Cors.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.WebHost.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\01 - Data Access Layer.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\02 - Data Transfer Objects.pdb
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\03 - Business Logic Layer.pdb
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\03 - Business Logic Layer.dll.config
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\EntityFramework.xml
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\EntityFramework.SqlServer.xml
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.Cors.xml
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\Newtonsoft.Json.xml
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Net.Http.Formatting.xml
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.xml
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.WebHost.xml
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\01 - Data Access Layer.pdb
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\01 - Data Access Layer.dll.config
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.csprojAssemblyReference.cache
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.csproj.CoreCompileInputs.cache
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.csproj.CopyComplete
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.pdb
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\04 - Web API.dll.config
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\04 - Web API.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\04 - Web API.pdb
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csc.exe
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csc.exe.config
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csc.rsp
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csi.exe
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csi.exe.config
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\csi.rsp
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.AppContext.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Collections.Immutable.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Console.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.Compression.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.FileSystem.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.Pipes.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Reflection.Metadata.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.AccessControl.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Claims.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.ValueTuple.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Xml.XPath.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\vbc.exe
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\vbc.exe.config
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\vbc.rsp
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\VBCSCompiler.exe
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\roslyn\VBCSCompiler.exe.config
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\02 - Data Transfer Objects.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\03 - Business Logic Layer.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\EntityFramework.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\EntityFramework.SqlServer.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\Newtonsoft.Json.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Net.Http.Formatting.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Cors.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.Cors.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.WebHost.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\01 - Data Access Layer.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\02 - Data Transfer Objects.pdb
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\03 - Business Logic Layer.pdb
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\03 - Business Logic Layer.dll.config
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\EntityFramework.xml
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\EntityFramework.SqlServer.xml
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.Cors.xml
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\Newtonsoft.Json.xml
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Net.Http.Formatting.xml
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.xml
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\System.Web.Http.WebHost.xml
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\01 - Data Access Layer.pdb
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\bin\01 - Data Access Layer.dll.config
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.csprojAssemblyReference.cache
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.csproj.CoreCompileInputs.cache
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.csproj.CopyComplete
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.dll
+C:\MoranProjects\projects\Full Stack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.pdb
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\04 - Web API.dll.config
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\04 - Web API.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\04 - Web API.pdb
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\csc.exe
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\csc.exe.config
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\csc.rsp
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\csi.exe
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\csi.exe.config
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\csi.rsp
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.AppContext.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Collections.Immutable.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Console.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.Compression.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.FileSystem.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.IO.Pipes.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Reflection.Metadata.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.AccessControl.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Claims.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.ValueTuple.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Xml.XPath.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\vbc.exe
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\vbc.exe.config
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\vbc.rsp
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\VBCSCompiler.exe
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\roslyn\VBCSCompiler.exe.config
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\02 - Data Transfer Objects.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\03 - Business Logic Layer.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\EntityFramework.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\EntityFramework.SqlServer.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\Newtonsoft.Json.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\System.Net.Http.Formatting.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\System.Web.Cors.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\System.Web.Http.Cors.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\System.Web.Http.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\System.Web.Http.WebHost.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\01 - Data Access Layer.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\02 - Data Transfer Objects.pdb
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\03 - Business Logic Layer.pdb
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\03 - Business Logic Layer.dll.config
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\EntityFramework.xml
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\EntityFramework.SqlServer.xml
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\System.Web.Http.Cors.xml
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\Newtonsoft.Json.xml
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\System.Net.Http.Formatting.xml
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\System.Web.Http.xml
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\System.Web.Http.WebHost.xml
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\01 - Data Access Layer.pdb
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\bin\01 - Data Access Layer.dll.config
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.csprojAssemblyReference.cache
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.csproj.CoreCompileInputs.cache
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.csproj.CopyComplete
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.dll
+C:\MoranProjects\projects\FullStack\AdiRentSystem\04 - Web API\obj\Debug\04 - Web API.pdb

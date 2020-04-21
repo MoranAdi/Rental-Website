@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AdiRentModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Branches">
+    <Key>
+      <PropertyRef Name="BranchID" />
+    </Key>
+    <Property Name="BranchID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Latitude" Type="float" Nullable="false" />
+    <Property Name="Longitude" Type="float" Nullable="false" />
+    <Property Name="BranchName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cars">
+    <Key>
+      <PropertyRef Name="CarID" />
+    </Key>
+    <Property Name="CarID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CarTypeID" Type="int" Nullable="false" />
+    <Property Name="BranchID" Type="int" Nullable="false" />
+    <Property Name="CarPlateNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CarType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CurrentMileage" Type="int" Nullable="false" />
+    <Property Name="Photo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Rentable" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CarsType">
+    <Key>
+      <PropertyRef Name="CarTypeID" />
+    </Key>
+    <Property Name="CarTypeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Manufacturer" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Model" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DailyPrice" Type="money" Nullable="false" />
+    <Property Name="DailyOverduePrice" Type="money" Nullable="false" />
+    <Property Name="ManufacturerYear" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ShiftGear" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RentalOrders">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StartDate" Type="datetime" Nullable="false" />
+    <Property Name="EndDate" Type="datetime" Nullable="false" />
+    <Property Name="ActualEndDate" Type="datetime" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="CarTypeID" Type="int" Nullable="false" />
+    <Property Name="CarID" Type="int" Nullable="false" />
+    <Property Name="PlateNumber" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="OrderStatus" Type="nvarchar" MaxLength="5" />
+    <Property Name="OrderNumber" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Birthdate" Type="datetime" />
+    <Property Name="Gender" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Role" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Photo" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <Association Name="FK_Cars_CarsType">
+    <End Role="CarsType" Type="Self.CarsType" Multiplicity="1" />
+    <End Role="Cars" Type="Self.Cars" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CarsType">
+        <PropertyRef Name="CarTypeID" />
+      </Principal>
+      <Dependent Role="Cars">
+        <PropertyRef Name="CarTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RentalOrders_Cars">
+    <End Role="Cars" Type="Self.Cars" Multiplicity="1" />
+    <End Role="RentalOrders" Type="Self.RentalOrders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cars">
+        <PropertyRef Name="CarID" />
+      </Principal>
+      <Dependent Role="RentalOrders">
+        <PropertyRef Name="CarID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RentalOrders_CarsType">
+    <End Role="CarsType" Type="Self.CarsType" Multiplicity="1" />
+    <End Role="RentalOrders" Type="Self.RentalOrders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CarsType">
+        <PropertyRef Name="CarTypeID" />
+      </Principal>
+      <Dependent Role="RentalOrders">
+        <PropertyRef Name="CarTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RentalOrders_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="RentalOrders" Type="Self.RentalOrders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="RentalOrders">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="GetAvailableCarsByDates" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="startDate" Type="date" Mode="In" />
+    <Parameter Name="endDate" Type="date" Mode="In" />
+  </Function>
+  <EntityContainer Name="AdiRentModelStoreContainer">
+    <EntitySet Name="Branches" EntityType="Self.Branches" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cars" EntityType="Self.Cars" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CarsType" EntityType="Self.CarsType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RentalOrders" EntityType="Self.RentalOrders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Cars_CarsType" Association="Self.FK_Cars_CarsType">
+      <End Role="CarsType" EntitySet="CarsType" />
+      <End Role="Cars" EntitySet="Cars" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RentalOrders_Cars" Association="Self.FK_RentalOrders_Cars">
+      <End Role="Cars" EntitySet="Cars" />
+      <End Role="RentalOrders" EntitySet="RentalOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RentalOrders_CarsType" Association="Self.FK_RentalOrders_CarsType">
+      <End Role="CarsType" EntitySet="CarsType" />
+      <End Role="RentalOrders" EntitySet="RentalOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RentalOrders_Users" Association="Self.FK_RentalOrders_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="RentalOrders" EntitySet="RentalOrders" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

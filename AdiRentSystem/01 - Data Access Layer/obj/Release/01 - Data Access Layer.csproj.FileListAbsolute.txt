@@ -1,0 +1,12 @@
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\01 - Data Access Layer\bin\Release\01 - Data Access Layer.dll.config
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\01 - Data Access Layer\bin\Release\01 - Data Access Layer.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\01 - Data Access Layer\bin\Release\01 - Data Access Layer.pdb
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\01 - Data Access Layer\bin\Release\EntityFramework.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\01 - Data Access Layer\bin\Release\EntityFramework.SqlServer.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\01 - Data Access Layer\bin\Release\EntityFramework.xml
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\01 - Data Access Layer\bin\Release\EntityFramework.SqlServer.xml
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\01 - Data Access Layer\obj\Release\01 - Data Access Layer.csprojAssemblyReference.cache
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\01 - Data Access Layer\obj\Release\01 - Data Access Layer.csproj.CoreCompileInputs.cache
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\01 - Data Access Layer\obj\Release\01 - Data Access Layer.csproj.CopyComplete
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\01 - Data Access Layer\obj\Release\01 - Data Access Layer.dll
+C:\Moran Projects\projects\Full Stack\AdiRentSystem\01 - Data Access Layer\obj\Release\01 - Data Access Layer.pdb

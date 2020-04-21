@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AdiRentModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Branch">
+    <Key>
+      <PropertyRef Name="BranchID" />
+    </Key>
+    <Property Name="BranchID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Address" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Latitude" Type="Double" Nullable="false" />
+    <Property Name="Longitude" Type="Double" Nullable="false" />
+    <Property Name="BranchName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Car">
+    <Key>
+      <PropertyRef Name="CarID" />
+    </Key>
+    <Property Name="CarID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CarTypeID" Type="Int32" Nullable="false" />
+    <Property Name="BranchID" Type="Int32" Nullable="false" />
+    <Property Name="CarPlateNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CarType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CurrentMileage" Type="Int32" Nullable="false" />
+    <Property Name="Photo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Rentable" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="CarsType" Relationship="Self.FK_Cars_CarsType" FromRole="Cars" ToRole="CarsType" />
+    <NavigationProperty Name="RentalOrders" Relationship="Self.FK_RentalOrders_Cars" FromRole="Cars" ToRole="RentalOrders" />
+  </EntityType>
+  <EntityType Name="CarsType">
+    <Key>
+      <PropertyRef Name="CarTypeID" />
+    </Key>
+    <Property Name="CarTypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Manufacturer" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DailyPrice" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="DailyOverduePrice" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="ManufacturerYear" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ShiftGear" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Cars" Relationship="Self.FK_Cars_CarsType" FromRole="CarsType" ToRole="Cars" />
+    <NavigationProperty Name="RentalOrders" Relationship="Self.FK_RentalOrders_CarsType" FromRole="CarsType" ToRole="RentalOrders" />
+  </EntityType>
+  <EntityType Name="RentalOrder">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ActualEndDate" Type="DateTime" Precision="3" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="CarTypeID" Type="Int32" Nullable="false" />
+    <Property Name="CarID" Type="Int32" Nullable="false" />
+    <Property Name="PlateNumber" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="OrderStatus" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="OrderNumber" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Car" Relationship="Self.FK_RentalOrders_Cars" FromRole="RentalOrders" ToRole="Cars" />
+    <NavigationProperty Name="CarsType" Relationship="Self.FK_RentalOrders_CarsType" FromRole="RentalOrders" ToRole="CarsType" />
+    <NavigationProperty Name="User" Relationship="Self.FK_RentalOrders_Users" FromRole="RentalOrders" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Birthdate" Type="DateTime" Precision="3" />
+    <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Role" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Photo" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="RentalOrders" Relationship="Self.FK_RentalOrders_Users" FromRole="Users" ToRole="RentalOrders" />
+  </EntityType>
+  <Association Name="FK_Cars_CarsType">
+    <End Role="CarsType" Type="Self.CarsType" Multiplicity="1" />
+    <End Role="Cars" Type="Self.Car" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CarsType">
+        <PropertyRef Name="CarTypeID" />
+      </Principal>
+      <Dependent Role="Cars">
+        <PropertyRef Name="CarTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RentalOrders_Cars">
+    <End Role="Cars" Type="Self.Car" Multiplicity="1" />
+    <End Role="RentalOrders" Type="Self.RentalOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cars">
+        <PropertyRef Name="CarID" />
+      </Principal>
+      <Dependent Role="RentalOrders">
+        <PropertyRef Name="CarID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RentalOrders_CarsType">
+    <End Role="CarsType" Type="Self.CarsType" Multiplicity="1" />
+    <End Role="RentalOrders" Type="Self.RentalOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CarsType">
+        <PropertyRef Name="CarTypeID" />
+      </Principal>
+      <Dependent Role="RentalOrders">
+        <PropertyRef Name="CarTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RentalOrders_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="RentalOrders" Type="Self.RentalOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="RentalOrders">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AdiRentEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Branches" EntityType="Self.Branch" />
+    <EntitySet Name="Cars" EntityType="Self.Car" />
+    <EntitySet Name="CarsTypes" EntityType="Self.CarsType" />
+    <EntitySet Name="RentalOrders" EntityType="Self.RentalOrder" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_Cars_CarsType" Association="Self.FK_Cars_CarsType">
+      <End Role="CarsType" EntitySet="CarsTypes" />
+      <End Role="Cars" EntitySet="Cars" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RentalOrders_Cars" Association="Self.FK_RentalOrders_Cars">
+      <End Role="Cars" EntitySet="Cars" />
+      <End Role="RentalOrders" EntitySet="RentalOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RentalOrders_CarsType" Association="Self.FK_RentalOrders_CarsType">
+      <End Role="CarsType" EntitySet="CarsTypes" />
+      <End Role="RentalOrders" EntitySet="RentalOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RentalOrders_Users" Association="Self.FK_RentalOrders_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="RentalOrders" EntitySet="RentalOrders" />
+    </AssociationSet>
+    <FunctionImport Name="GetAvailableCarsByDates" ReturnType="Collection(AdiRentModel.GetAvailableCarsByDates_Result)">
+      <Parameter Name="startDate" Mode="In" Type="DateTime" />
+      <Parameter Name="endDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="GetAvailableCarsByDates_Result">
+    <Property Type="Int32" Name="CarTypeID" Nullable="false" />
+    <Property Type="Int32" Name="CarID" Nullable="false" />
+    <Property Type="String" Name="ManufacturerYear" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="DailyPrice" Nullable="false" Precision="19" />
+    <Property Type="Decimal" Name="DailyOverduePrice" Nullable="false" Precision="19" />
+    <Property Type="String" Name="Model" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Manufacturer" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ShiftGear" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="BranchID" Nullable="false" />
+    <Property Type="String" Name="CarType" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="CurrentMileage" Nullable="false" />
+    <Property Type="String" Name="Photo" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="BranchName" Nullable="false" MaxLength="50" />
+    <Property Type="Boolean" Name="Rentable" Nullable="false" />
+    <Property Type="String" Name="CarPlateNumber" Nullable="false" MaxLength="50" />
+  </ComplexType>
+</Schema>
